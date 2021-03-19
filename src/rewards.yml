@@ -1,0 +1,13 @@
+#Placeholders are %streak% and %player%
+1:
+  REQUIRED_KILLSTREAK: 5
+  BROADCAST_MESSAGE: true
+  MESSAGE: '&b%player% &7has reached a &b%streak% &7kill streak.'
+  COMMANDS:
+    - 'give %player% dirt'
+2:
+  REQUIRED_KILLSTREAK: 10
+  BROADCAST_MESSAGE: true
+  MESSAGE: '&b%player% &7has reached a &b%streak% &7kill streak.'
+  COMMANDS:
+    - 'give %player% diamond'

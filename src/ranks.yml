@@ -1,0 +1,23 @@
+DEFAULT:
+  ID: 1
+  NAME: "Peasant"
+1:
+  ID: 2
+  NAME: "Novice"
+  REQUIRED_KILLS: 2
+  PLAYER_MESSAGE: "&7You reached &bNovice &7rank."
+  BROADCAST_MESSAGE: true
+  MESSAGE: "&b%player% &7reached the &bNovice &7rank."
+  COMMANDS:
+    - 'say %player% reached novice rank!'
+    - 'say customize this command in ranks.yml'
+2:
+  ID: 3
+  NAME: "God"
+  REQUIRED_KILLS: 3
+  PLAYER_MESSAGE: "&7You reached &bGod &7rank."
+  BROADCAST_MESSAGE: true
+  MESSAGE: "&b%player% &7reached the &bGod &7rank."
+  COMMANDS:
+    - 'say %player% reached god rank!'
+    - 'say customize this command in ranks.yml'

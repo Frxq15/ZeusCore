@@ -1,0 +1,23 @@
+name: ZeusCore
+version: 1.0
+main: me.Frxq15.ZeusCore.Main
+authors: [Frxq15]
+description: Kill Core plugin
+
+commands:
+  killstreak:
+    description: Killstreak command
+    usage: /<command>
+    aliases: [ks, mykillstreak]
+  rank:
+    description: Rank command
+    usage: /<command>
+    aliases: [myrank]
+  kills:
+    description: Kills command
+    usage: /<command>
+    aliases: [mykills]
+  resetkilldata:
+    description: Data reset command
+    usage: /<command>
+    aliases: [rkd]

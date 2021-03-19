@@ -1,0 +1,29 @@
+DATABASE:
+  TABLE: "zeuscore"
+  HOST: "HOST IP"
+  PORT: 3306
+  DATABASE: "DATABASE"
+  USERNAME: "USERNAME"
+  PASSWORD: "PASSWORD"
+
+PLAYER_NOT_FOUND: "&7The player you specified could not be found."
+CURRENT_STREAK: "&7You are currently on a &b%streak% &7kill streak."
+NO_KILLSTREAK: "&cYou are not currently on a kill streak."
+CURRENT_STREAK_OTHER: "&b%player% &7is currently on a &b%streak% &7kill streak."
+NO_KILLSTREAK_OTHER: "&c%player% is not currently on a kill streak."
+KILLSTREAK_OVER: "&7You died and lost your kill streak of &b%streak%&7."
+NEVER_JOINED: "&7The player &b%player% &7has never joined before."
+DEFAULT_RANK: "&cYou are currently the default rank."
+CURRENT_RANK: "&7Your current rank is &b%rank%&7."
+DEFAULT_RANK_OTHER: "&b%player% &7is currently the default rank."
+CURRENT_RANK_OTHER: "&b%player%''s &7current rank is &b%rank%&7."
+PLAYER_KILLS: "&7You have &b%kills% &7kills."
+PLAYER_KILLS_OTHER: "&b%player% &7has &b%kills% &7kills."
+RESET_NOT_WHITELISTED: "&cYou are not whitelisted to reset player data."
+RESET_ANSWER_NEEDED: "&7Please rerun the command with &b/resetkilldata <confirm|deny>"
+RESET_CONFIRM_FAILED: "&cYou failed to confirm the resetkilldata command."
+RESET_DENIED: "&7You have exited the data reset process."
+RESET_CONFIRMED: "&7Data reset confirmed, the plugin will now reset all player data."
+RESET_DATA_WHITELIST:
+  - 'InsertYourIGNHere'
+  - 'ToResetPlayerData'
